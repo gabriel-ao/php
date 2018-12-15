@@ -1,0 +1,49 @@
+<!DOCTYPE html lang ="pt-br">
+
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Hatsu Estagio</title>
+		<link rel="stylesheet" type="text/css" href="hatsu.css">
+		<link rel="icon" href="hatsu_icon.jpg" type="image" sizes="16x16">
+	</head>
+	<body class="body">
+	
+			<a href="hatsu.html" class="link_img"> <img class="imagem" src="hatsu_logo.png"> </a>
+			
+			<h2 class="h2"> Prescrição de lentes</h2>
+			
+			<form class="centro" method = "get" action="hatsu.php">
+			
+				Grau esférico do olho direito:<br>
+				<input type="number" class="borda"  step="0.25"  name="grauED" min="-15" max="0" required="true"><br><br>
+				
+				Grau cilíndrico do olho direito:<br>
+				<input type="number" class="borda"  step="0.25" name="grauCD" min="-6" max="0" required="true"><br><br>
+				
+				Grau esférico do olho esquerdo:<br>
+				<input type="number" class="borda"  step="0.25" name="grauEE" min="-15" max="0" required="true"><br><br>
+				
+				Grau cilíndrico do olho esquerdo:<br>
+				<input type="number" class="borda"  step="0.25" name="grauCE" min="-6" max="0" required="true"><br>
+				
+				<input type="submit" class="button" value="Analisar"/>
+			</form>
+	 </body>
+
+  <!--
+ Em uma compra online, o usuário insere informações de sua receita oftálmica, e nosso sistema deve exibir uma 
+lente que atende a sua necessidade. Precisamos captar 4 parâmetros numéricos do usuário. São eles: grau esférico 
+do olho esquerdo, grau esférico do olho direito, grau cilíndrico do olho esquerdo e grau cilíndrico do olho direito. 
+
+A lente Prime só pode ser uma opção para o usuário que tiver grau esférico, seja do olho esquerdo ou do olho direito, 
+entre -3 e -12. Além disso, ela só atende até grau cilíndrico -2, porém, se o usuário apresentar grau cilíndrico, ela 
+passa a atender grau esférico entre -3 e -10. 
+
+Já a lente Vision é uma opção para quem tem de 0 a -15 de esférico e até 
+-5 de cilíndrico. Quando a lente Prime está disponível, ela deve ser a única exibida para o usuário. OBS: O grau limite 
+que o usuário pode inserir é de 0 a -15 para esférico e -6 para cilíndrico e são números iterados de 0,25 em 0,25 
+(ex: -0,25; 0; +0,25; etc) *
+
+-->
+ </html>

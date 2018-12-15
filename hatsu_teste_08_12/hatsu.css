@@ -1,0 +1,50 @@
+.button{
+	border: 1px solid #000000;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: "montserrat";
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+    color: white;
+	background-color: #000000;
+}
+
+.button:hover{
+	color: white;
+	background-color: gray;
+}
+
+.borda{
+  width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.centro{
+	text-align: center;
+}
+
+.body {
+	color: black;
+	font-size: 20px;
+	background-color: lightgray;
+}
+
+.imagem {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.h2 {
+  font-size: 30px;
+  text-align: center;
+}
