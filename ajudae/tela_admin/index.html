@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Ajudae admin workplace</title>
+	<!--AQUI E ONDE E FEITA TODAS AS CHAMADAS DO CSS-->
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700" rel="stylesheet">
+	
+	<!-- Template Styles -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	
+	<!-- CSS Reset -->
+	<link rel="stylesheet" href="css/normalize.css">
+	
+	<!-- Milligram CSS minified -->
+	<link rel="stylesheet" href="css/milligram.min.css">
+	
+	<!-- Main Styles -->
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<!--SE ALGUM ANIMAL AINDA USAR O IE9 HABILITAR O CAMPO ABAIXO-->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<div class="navbar">
+		<div class="row">
+			<!--NOME DO LOGO, PODEMOS COLOCAR O LOGO OU MANTER O NOME APENAS-->
+			<div class="column column-30 col-site-title"><a href="#" class="site-title float-left">Ajudaê</a></div>
+			
+			<div class="column column-30">
+				<div class="user-section"><a href="#">
+				
+					
+					<div class="username">
+
+
+						<!--AQUI DEVERA PEGAR O NOME DO ADM NO BANCO DE DADOS(Apenas o 1 nome)-->
+						<h4>Alciomarzin </h4>
+						<p>Mestre do sistema</p>
+					</div>
+				</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div id="sidebar" class="column">
+			<!--MENU LATERAL-->
+			<h5>Menu</h5>
+			<ul>
+				<li><a href="#"><em class="fa fa-home"></em> Inicial</a></li>
+				<li><a href="#tables"><em class="fa fa-table"></em> Importar dados dos usuários</a></li>
+				<li><a href="#grid"><em class="fa fa-columns"></em> Importar XML</a></li>
+			</ul>
+		</div>
+		<section id="main-content" class="column column-offset-20">
+			<div class="row grid-responsive">
+				<div class="column page-heading">
+					<div class="large-card">
+						<h1>Olá querido adminstrador(a)!!</h1>
+						<p class="text-large">Essa seção especial do sistema irá te dar todo o controle
+							em cima dos dados dos usuários lhe permitindo adicionar, modificar e excluir, 
+							sejam eles individuais ou em lote! Cuide bem do sistema e do banco de
+							dados já que a finalidade é ajudar pessoas, e lembre-se...
+						</p>
+						<p><em>“Com grandes poderes vêm grandes responsabilidades”</em></p>
+						
+					</div>
+				</div>
+			</div>
+
+			<!--NAO APAGAR, EXEMPLOS DE BOTAO OK?-->
+			<!--Buttons-->
+			<h5 class="mt-2">Buttons</h5><a class="anchor" name="buttons"></a>
+			<div class="row grid-responsive">
+				<div class="column">
+					<!-- Default Button -->
+					<a class="button" href="#">Default Button</a>
+					
+					<!-- Outlined Button -->
+					<button class="button button-outline">Outlined Button</button>
+					
+					<!-- Clear Button -->
+					<input class="button button-clear" type="submit" value="Clear Button">
+				</div>
+			</div>
+			<!--_______________________________________________________________________-->
+			
+			<!--Tables-->
+			
+	
+
+			<h5 class="mt-2">Tables</h5><a class="anchor" name="tables"></a>
+			<div class="row grid-responsive">
+				<div class="column ">
+					<div class="card">
+						<div class="card-title">
+							<h3>Dados dos usuários</h3>
+						</div>
+						<div class="card-block">
+							<table>
+								<thead>
+									<tr>
+										<th>RA</th>
+										<th>Nome</th>
+										<th>Curso</th>
+										<th>Semestre</th>
+										<th>E-mail</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Jane Donovan</td>
+										<td>UI Developer</td>
+										<td>23</td>
+										<td>Philadelphia, PA</td>
+										<td>Philadelphia, PA</td>
+									</tr>
+									
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--Grid-->
+			<h5 class="mt-2">grid</h5><a class="anchor" name="grid"></a>
+			<div class="grid-example mt-2">
+				<div class="row">
+					<div class="column column-10">10%</div>
+				</div>
+				<div class="row">
+					<div class="column column-20">20%</div>
+				</div>
+				<div class="row">
+					<div class="column column-25">25%</div>
+				</div>
+				<div class="row">
+					<!-- .column-33 or .column-34 both work for 1/3 column width -->
+					<div class="column column-33">33%</div>
+				</div>
+				<div class="row">
+					<div class="column column-40">40%</div>
+				</div>
+				<div class="row">
+					<div class="column column-50">50%</div>
+				</div>
+				<div class="row">
+					<div class="column column-60">60%</div>
+				</div>
+				<div class="row">
+					<!-- .column-66 or .column-67 both work for 2/3 column width -->
+					<div class="column column-67">67%</div>
+				</div>
+				<div class="row">
+					<div class="column column-75">75%</div>
+				</div>
+				<div class="row">
+					<div class="column column-80">80%</div>
+				</div>
+				<div class="row">
+					<div class="column column-90">90%</div>
+				</div>
+				<div class="row">
+					<div class="column">100%</div>
+				</div>
+			</div>
+			<p class="credit">HTML5 Admin Template by <a href="https://www.medialoot.com">Medialoot</a></p>
+		</section>
+	</div>
+	
+	<script src="js/chart.min.js"></script>
+	<script src="js/chart-data.js"></script>
+	<script>
+	window.onload = function () {
+		var chart1 = document.getElementById("line-chart").getContext("2d");
+		window.myLine = new Chart(chart1).Line(lineChartData, {
+		responsive: true,
+		scaleLineColor: "rgba(0,0,0,.2)",
+		scaleGridLineColor: "rgba(0,0,0,.05)",
+		scaleFontColor: "#c5c7cc"
+		});
+		var chart2 = document.getElementById("bar-chart").getContext("2d");
+		window.myBar = new Chart(chart2).Bar(barChartData, {
+		responsive: true,
+		scaleLineColor: "rgba(0,0,0,.2)",
+		scaleGridLineColor: "rgba(0,0,0,.05)",
+		scaleFontColor: "#c5c7cc"
+		});
+		var chart4 = document.getElementById("pie-chart").getContext("2d");
+		window.myPie = new Chart(chart4).Pie(pieData, {
+		responsive: true,
+		segmentShowStroke: false
+		});
+		var chart5 = document.getElementById("radar-chart").getContext("2d");
+		window.myRadarChart = new Chart(chart5).Radar(radarData, {
+		responsive: true,
+		scaleLineColor: "rgba(0,0,0,.05)",
+		angleLineColor: "rgba(0,0,0,.2)"
+		});
+		var chart6 = document.getElementById("polar-area-chart").getContext("2d");
+		window.myPolarAreaChart = new Chart(chart6).PolarArea(polarData, {
+		responsive: true,
+		scaleLineColor: "rgba(0,0,0,.2)",
+		segmentShowStroke: false
+		});
+	};
+	</script>			
+
+</body>
+</html> 

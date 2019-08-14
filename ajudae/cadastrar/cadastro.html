@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+     <link rel="icon" type="imagem/png" href="../home/imagens/iajuda.png" />
+  <meta charset="UTF-8">
+  <title>Cadastro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="user">
+    <header class="user__header">
+      
+        <h1 class="user__title">Cadastre-se</h1>
+    </header>
+    
+    <form class = "form"  action="../CRUD/inserir.php" method="POST">
+        <div class="form__group">
+            <input type="text" placeholder="Nome completo" class="form__input" name="NomeCompleto" />
+        </div>
+       
+        <div class="form__group">
+            <input type="number" placeholder="R.A(Somente para alunos)" class="form__input" name="RA" />
+        </div>
+        
+        <div class="form__group">
+            <input type="text" placeholder="Telefone" class="form__input" name="Telefone" />
+        </div>
+
+        <div class="form__group">
+            <input type="email" placeholder="Email" class="form__input" name="email" />
+        </div>
+        
+        <div class="form__group">
+            <input type="password" placeholder="Senha" class="form__input" name="password" />
+        </div>
+
+        <button class="btn" type="submit" value="submit">Cadastrar Aluno</button>
+
+        <div class="form__group">
+                <a class="btn" align="center" href="../entrar/entrar.php">Logar</a>
+        </div>
+
+        <div class="form__group">
+                <a class="btn" align="center" href="../index.html">Portifolio</a>
+        </div>
+    </form>
+</div>
+  
+  
+
+    
+<script  src="js/index.js"></script>
+
+
+
+</body>
+
+</html>
